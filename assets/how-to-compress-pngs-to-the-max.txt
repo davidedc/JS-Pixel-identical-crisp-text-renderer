@@ -1,0 +1,3 @@
+install optipng, then:
+
+optipng THEPNGFILE -force -o7 -zm1-9

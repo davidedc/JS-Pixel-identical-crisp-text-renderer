@@ -1,0 +1,13 @@
+<!DOCTYPE html><html><head><script>
+  function display() {
+    var canvas = document.getElementById('test');
+    // For EM and % cases...
+    //canvas.style.font="5px Arial";
+    canvas.height = 1000;
+    canvas.width = 700;
+    var context = canvas.getContext('2d');
+      context.font = "100px Arial";
+      context.rotate(Math.PI/2);
+      context.fillText("ÁgArial 100 ", 20, -100);
+  }
+</script></head><body onload="display()"><canvas id="test"></canvas></body></html>
